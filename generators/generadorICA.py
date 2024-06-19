@@ -8,7 +8,9 @@ def generarDatosICA():
         ica=random.randint(10,100)
         fecha=random.choice(["2024-06-23","2024-06-25","2024-01-30","2024-07-31"])
         id=random.randint(1,50000)
+        dato=[comuna, ica, fecha, id]
         datosEncuesta.append(dato)
-    print(datosEncuesta)
+    return (datosEncuesta)
+   
     
 generarDatosICA()
